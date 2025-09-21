@@ -34,3 +34,9 @@ POST /ask with JSON:
 Run evaluation
 
 python evaluate.py
+
+
+
+Learnings
+
+This project demonstrates the value of combining vector embeddings (semantic search) with BM25 keyword matching for domain-specific Q&A. Even a small, CPU-friendly system can achieve noticeable improvements in retrieval quality. Chunking large documents and maintaining a lightweight FAISS index makes the pipeline efficient and suitable for on-premise deployment.
